@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-zhichang"
-version = "1.0.0"
+version = "1.0.4"
 description = "有趣的职场人专属日历"
 authors = ["Priopus <360048935@qq.com>"]
 readme = "README.md"
