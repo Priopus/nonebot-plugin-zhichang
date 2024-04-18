@@ -17,6 +17,16 @@ except ModuleNotFoundError:
 require("nonebot_plugin_apscheduler")
 
 from nonebot_plugin_apscheduler import scheduler
+from nonebot.plugin import PluginMetadata
+
+__plugin_meta__ = PluginMetadata(
+    name="职场日历",
+    description="有趣的职场人专属日历",
+    usage="职场日历",
+    type="application",
+    homepage="https://github.com/Priopus/nonebot-plugin-zhichang"
+)
+
 
 subscribe = Path(__file__).parent / "subscribe.json"
 
